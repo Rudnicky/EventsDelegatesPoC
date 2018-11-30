@@ -44,6 +44,9 @@ namespace EventsDelegatesPoC
             ActionPerformer actionPerformer = new ActionPerformer();
             actionPerformer.ShowInteger(10);
 
+            FuncPerformer funcPerformer = new FuncPerformer();
+            funcPerformer.DisplaySum(10, 10);
+
             Console.ReadKey();
         }
 

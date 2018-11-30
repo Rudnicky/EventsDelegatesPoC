@@ -45,6 +45,7 @@
     <Compile Include="Concepts\ActionPerformer.cs" />
     <Compile Include="Concepts\CanMachine.cs" />
     <Compile Include="Concepts\ComputerOperations.cs" />
+    <Compile Include="Concepts\FuncPerformer.cs" />
     <Compile Include="Concepts\MessageShouter.cs" />
     <Compile Include="Concepts\SalaryCounter.cs" />
     <Compile Include="Utils\CustomEventArgs.cs" />
