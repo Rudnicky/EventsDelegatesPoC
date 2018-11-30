@@ -1,4 +1,5 @@
-﻿using EventsDelegatesPoC.Concepts;
+﻿using ConsoleApp2.Concepts;
+using EventsDelegatesPoC.Concepts;
 using System;
 
 namespace EventsDelegatesPoC
@@ -41,11 +42,17 @@ namespace EventsDelegatesPoC
             // strong references
             Unsubscribe(computerOperations);
 
+            // Action<[type]> [name]
             ActionPerformer actionPerformer = new ActionPerformer();
             actionPerformer.ShowInteger(10);
 
+            // Func<[arg], ..., [returnType]> [name]
             FuncPerformer funcPerformer = new FuncPerformer();
             funcPerformer.DisplaySum(10, 10);
+
+            // Predicate<[arg]> [name]
+            PredicatePerformer predicatePerformer = new PredicatePerformer();
+            predicatePerformer.CheckIfStringIsUpperCase("Pawel");
 
             Console.ReadKey();
         }

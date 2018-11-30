@@ -47,6 +47,7 @@
     <Compile Include="Concepts\ComputerOperations.cs" />
     <Compile Include="Concepts\FuncPerformer.cs" />
     <Compile Include="Concepts\MessageShouter.cs" />
+    <Compile Include="Concepts\PredicatePerformer.cs" />
     <Compile Include="Concepts\SalaryCounter.cs" />
     <Compile Include="Utils\CustomEventArgs.cs" />
     <Compile Include="Utils\Enums.cs" />
