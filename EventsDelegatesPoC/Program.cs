@@ -1,7 +1,7 @@
-﻿using ConsoleApp2.Concepts;
+﻿using EventsDelegatesPoC.Concepts;
 using System;
 
-namespace ConsoleApp2
+namespace EventsDelegatesPoC
 {
     class Program
     {

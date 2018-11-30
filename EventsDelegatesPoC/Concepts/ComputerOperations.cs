@@ -1,7 +1,7 @@
-﻿using ConsoleApp2.Utils;
+﻿using EventsDelegatesPoC.Utils;
 using System;
 
-namespace ConsoleApp2.Concepts
+namespace EventsDelegatesPoC.Concepts
 {
     /// <summary>
     /// Class shows how events and delegates

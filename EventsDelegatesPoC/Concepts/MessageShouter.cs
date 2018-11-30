@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.Concepts
+namespace EventsDelegatesPoC.Concepts
 {
     /// <summary>
     /// Creates delegates that return type is void 

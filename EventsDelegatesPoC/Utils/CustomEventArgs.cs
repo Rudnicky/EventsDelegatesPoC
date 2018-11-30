@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.Utils
+namespace EventsDelegatesPoC.Utils
 {
     public class CustomEventArgs : EventArgs
     {

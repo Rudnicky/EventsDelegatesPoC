@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.Concepts
+﻿namespace EventsDelegatesPoC.Concepts
 {
     /// <summary>
     /// Conceptual class to show how to use delegates

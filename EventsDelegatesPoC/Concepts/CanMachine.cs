@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2
+namespace EventsDelegatesPoC
 {
     /// <summary>
     /// Conceptual class to show how to use void 

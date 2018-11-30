@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2
+namespace EventsDelegatesPoC
 {
     internal static class Messages
     {
