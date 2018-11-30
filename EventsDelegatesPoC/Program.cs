@@ -36,7 +36,13 @@ namespace EventsDelegatesPoC
             computerOperations.JustToCheckDefaultEventHandler();
             computerOperations.JustcheckingWithExtraArgs();
 
+            // unsubscribe from these events, otherwise
+            // garbage collector won't take these
+            // strong references
             Unsubscribe(computerOperations);
+
+            ActionPerformer actionPerformer = new ActionPerformer();
+            actionPerformer.ShowInteger(10);
 
             Console.ReadKey();
         }

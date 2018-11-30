@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concepts\ActionPerformer.cs" />
     <Compile Include="Concepts\CanMachine.cs" />
     <Compile Include="Concepts\ComputerOperations.cs" />
     <Compile Include="Concepts\MessageShouter.cs" />
